@@ -80,3 +80,10 @@ h2{
     margin: 0px 20px;
     border-radius: 2px;
 }
+#footer a{
+    color: black;
+    text-decoration-line: none;
+}
+#footer a:hover{
+    color: blue;
+}
