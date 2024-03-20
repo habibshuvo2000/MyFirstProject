@@ -1,0 +1,82 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+h1{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid none;
+    text-align: center;
+    font-size: 45px;
+    text-decoration-line: underline;
+    
+}
+#Menu{
+    /* column-count: 4;
+    column-gap: 10px;
+    column-rule: 2px solid; */
+    border: 1px solid none;
+    background-color: bisque;
+    margin: 0px 20px;
+    border-radius: 2px;
+}
+#Menu li{
+    display: inline-block;
+}
+#Menu li a{
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration-line: none;
+    color: black;
+    
+}
+#Menu li a:hover{
+    color: white;
+    background-color: aquamarine;
+}
+#Menu ul{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    border: 1px solid none;
+    margin: 5px 20px;
+    color: chocolate;
+}
+#content{
+    border: 1px solid none;
+    margin: 0px 20px;
+    padding: 5px;
+    width: 67%;
+    box-sizing: border-box;
+    text-align: justify;
+    float: left;
+}
+#slidbar{
+    float: right;
+    border-left: 2px solid black;
+    width: 29%;
+    box-sizing: border-box;
+
+   min-height: 493px;
+   /* background-color: cyan; */
+   margin-right: 20px;
+}
+#slidbar a{
+    text-decoration-line: none;
+    color: black;
+    
+}
+#slidbar a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+#footer{
+    clear: both;
+    background-color: cadetblue;
+    text-align: right;
+    padding: 10px;
+    margin: 0px 20px;
+    border-radius: 2px;
+}
